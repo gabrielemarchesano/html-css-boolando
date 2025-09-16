@@ -33,6 +33,27 @@
     background-color: chocolate;
     height: 20%;
   }
+
+  footer {
+    background-color: thistle;
+    height: 100px;
+  }
+
+  .footer {
+    background-color: steelblue;
+  }
+
+  .factory, .social {
+    background-color: coral;
+  }
+
+  .factory {
+    width: 250px;
+  }
+
+  .social {
+    width: 200px;
+  }
   
 }
 
@@ -68,4 +89,8 @@ header > nav {
 .cards-container {
   grid-template-columns: repeat(3, 1fr);
   gap: 0 10px;
+}
+
+.footer {
+  justify-content: space-between;
 }
