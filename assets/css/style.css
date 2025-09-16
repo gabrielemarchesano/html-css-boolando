@@ -82,6 +82,15 @@ a {
   padding: 2px;
 }
 
+footer {
+  background-color: var(--foot-color);
+  height: 90px;
+  padding: 30px;
+  strong {
+    display: block;
+  }
+}
+
 .white-txt {
   color: white;
 
