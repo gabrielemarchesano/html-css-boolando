@@ -110,8 +110,26 @@ a {
   gap: 0 10px;
 }
 
+
 .clothes-img {
   height: 400px;
+}
+
+.card-descr {
+  margin-bottom: 50px;
+}
+
+.brand, .name {
+  display: block;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
 }
 
 .footer {
