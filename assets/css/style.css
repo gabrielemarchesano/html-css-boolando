@@ -1,5 +1,36 @@
+.debug {
+  * {
+    border: 1px dashed black;
+  }
+
+  header {
+    height: 50px;
+    background-color: orange;
+  }
+
+  .container {
+    height: 100%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header
+{
+  padding: 0.5rem 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
 }
