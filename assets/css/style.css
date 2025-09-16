@@ -73,6 +73,7 @@ header
   padding: 0.5rem 0;
   background-color: var(--brand-color);
   position: sticky;
+  z-index: 3;
   top: 0;
 }
 
@@ -144,11 +145,11 @@ footer {
   z-index: 2;
 }
 
-.clothes-img:hover .main-img {
+.cards:hover .main-img {
   opacity: 0;
 }
 
-.clothes-img:hover .hover-img {
+.cards:hover .hover-img {
   opacity: 1;
 }
 
