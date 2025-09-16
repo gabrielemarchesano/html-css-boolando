@@ -78,6 +78,10 @@ header > nav {
   justify-content: space-between;
 }
 
+a {
+  padding: 2px;
+}
+
 .white-txt {
   color: white;
 
@@ -104,6 +108,10 @@ header > nav {
 .cards-container {
   grid-template-columns: repeat(3, 1fr);
   gap: 0 10px;
+}
+
+.clothes-img {
+  height: 400px;
 }
 
 .footer {
